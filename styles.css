@@ -1,0 +1,288 @@
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(53, 121, 123);
+  height: 100px;
+  font-size: 20px;
+}
+
+a:hover {
+  color: gold;
+  transition: 0.3s;
+}
+
+.logo {
+  flex-grow: 1;
+}
+
+.logo img {
+  width: 100px;
+  margin-left: 30px;
+}
+
+nav li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 30px;
+  color: white;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-icon {
+  display: none;
+  margin-right: 30px;
+}
+
+.menu-icon i {
+  color: #f2f2f2;
+  padding: 10px;
+  font-size: 23px;
+}
+
+/* COUNTDOWN */
+.countdown-wrapper {
+  width: 40%;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(229, 220, 88);
+  padding: 10px 15px;
+  margin: 0 auto;
+  border-radius: 20%;
+}
+
+.countdown {
+  color: red;
+  font-size: 25px;
+  text-align: center;
+}
+
+.new-album h6 {
+  color: red;
+  font-size: 45px;
+  text-align: center;
+}
+
+
+
+/* GALERY */
+.gallery {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.gallery-item {
+  height: 600px;
+  width: 100%;
+  flex-shrink: 1;
+}
+
+.photo {
+  background-image: url(img/ab67616d0000b273d400d27cba05bb0545533864.jpg);
+  background-size: cover;
+  background-position: center;
+  border: white 2px solid;
+}
+.photo1 {
+  background-image: url(img/Screenshot_14.jpg);
+  background-size: cover;
+  background-position: center;
+  border: white 2px solid;
+}
+
+.photo2 {
+  background-image: url(img/pearl-jam-binaural.jpg);
+  background-size: cover;
+  background-position: center;
+  border: white 2px solid;
+}
+
+.photo3 {
+  background-image: url(img/R-2016772-1258747673.jpg);
+  background-size: cover;
+  background-position: center;
+  border: white 2px solid;
+}
+
+.photo4 {
+  background-image: url(img/avokado.jpg);
+  background-size: cover;
+  background-position: center;
+  border: white 2px solid;
+}
+
+.photo5 {
+  background-image: url(img/Pearl_Jam_Lightning_Bolt.jpg);
+  background-size: cover;
+  background-position: center;
+  border: white 2px solid;
+}
+
+.photo6 {
+  background-image: url(img/gigation2020.jpg);
+  background-size: cover;
+  background-position: center;
+  border: white 2px solid;
+}
+
+.photo7 {
+  background-image: url(img/Dark-Matter-Album-Artwork-Pearl-Jam.jpg);
+  background-size: cover;
+  background-position: center;
+  border: white 2px solid;
+}
+
+.text {
+  background-color: rgb(149, 55, 55);
+  color: white;
+  background-image: none;
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 290px;
+  border: white 2px solid;
+}
+
+/* LOGIN */
+.log {
+  display: flex;
+  width: 20%;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.log h1 {
+  color: blue;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#fname,
+#lname,
+#pswd1,
+#pswd2 {
+  background-color: transparent;
+  border: none;
+  border: 2px solid blue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  outline: none;
+  color: blue;
+  text-align: center;
+  font-size: 20px;
+}
+
+.p {
+  size: 20px;
+}
+
+form input[type="submit"],
+[type="reset"] {
+  background-color: #db0000;
+  color: blue;
+  padding: 5px 10px;
+  margin-top: 10px;
+  font-size: 25px;
+  border: blue solid 2px;
+  cursor: pointer;
+}
+
+#blankMsg, #charMsg, #message1, #message2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.firstName, .lastName, .createPassword, .confirmPassword {
+  color: #db0000;
+  font-size: 20px;
+}
+
+/* UP BUTTON */
+.up {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  size: 50px;
+  background-color: rgb(23, 122, 58);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 55%;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  background-color: rgb(53, 121, 123);
+  text-align: center;
+  margin-top: 200px;
+}
+
+footer a {
+  color: white;
+}
+
+.footer-container {
+  display: inline-block;
+  width: 70%;
+  margin: 0 auto;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.footer-contact {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.footer-icons {
+  display: inline-block;
+  width: 70%;
+  margin: 0 auto;
+  gap: 50px;
+  font-size: 50px;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.mail-icon {
+  font-size: 50px;
+  color: white;
+}
+
+.footer-create {
+  display: inline-block;
+  width: 70%;
+  margin: 0 auto;
+  font-size: 20px;
+  color: white;
+}

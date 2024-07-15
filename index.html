@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Václav Cieslar -->
+  <!-- cieslar.vaclav@gmail.com -->
+  <!-- Vašek86 -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="query-style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="logo">
+        <img src="img/pngwing.com.png" alt="" />
+      </div>
+
+      <div>
+        <nav>
+          <ul>
+            <li><a href="#">NEWS</a></li>
+            <li><a href="#">DISCOGRAPHY</a></li>
+            <li><a href="#">THE BAND</a></li>
+            <li><a href="#">TOUR</a></li>
+            <li><a href="#">SHOP</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+        <!-- <i class="fa-solid fa-xmark"></i> -->
+      </div>
+    </header>
+
+    <section>
+      <div class="welcome"></div>
+    </section>
+    <br />
+
+    <!-- COUNTDOWN -->
+    <div class="countdown-wrapper">
+      <div class="new-album">
+        <h6>NEW ALBUM</h6>
+      </div>
+      <p id="countdown" class="countdown"></p>
+    </div>
+    <br />
+
+    <!-- GALERY -->
+    <section class="gallery">
+      <div class="photo gallery-item"></div>
+      <div class="photo1 gallery-item"></div>
+      <div class="photo2 gallery-item"></div>
+      <div class="photo3 gallery-item"></div>
+      <div class="gallery-item text">DISCOGRAPHY</div>
+      <div class="photo4 gallery-item"></div>
+      <div class="photo5 gallery-item"></div>
+      <div class="photo6 gallery-item"></div>
+      <div class="photo7 gallery-item"></div>
+    </section>
+
+    <!-- LOGIN -->
+    <div class="log">
+      <form onsubmit="return validateForm()">
+        <h1>Login</h1>
+
+        <!-- First name -->
+        <div class="firstName">
+          <p>First Name</p>
+          <input type="text" id="fname" value="" />
+          <span id="blankMsg" style="color: red"> </span> <br /><br />
+        </div>
+
+        <!-- Last name -->
+        <div class="lastName">
+          <p>Last Name</p>
+          <input type="text" id="lname" value="" />
+          <span id="charMsg" style="color: red"> </span> <br /><br />
+        </div>
+
+        <!-- Create password -->
+        <div class="createPassword">
+          <p>Create Password</p>
+          <input type="password" id="pswd1" value="" />
+          <span id="message1" style="color: red"> </span> <br /><br />
+        </div>
+
+        <!-- Confirm password -->
+        <div class="confirmPassword">
+          <p>Confirm Password</p>
+          <input type="password" id="pswd2" value="" />
+          <span id="message2" style="color: red"> </span> <br /><br />
+        </div>
+
+        <!-- SUBMIT -->
+        <input type="submit" value="Submit" />
+
+        <!-- RESET -->
+        <button type="reset" value="Reset">Reset</button>
+      </form>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-contact">
+          <h6>CONTACT</h6>
+          <a href="mailto:cieslar.vaclav@gmail.com"
+            ><i class="fa-solid fa-square-envelope"></i
+          ></a>
+        </div>
+      </div>
+      <br />
+
+      <div class="footer-icons">
+        <h6>FOLLOW ME</h6>
+        <a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+        <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+        <a href="www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+      <br />
+
+      <div class="footer-create">© 2024 - Cieslar Václav</div>
+      <br />
+    </footer>
+
+    <!-- UP BUTTON -->
+    <div class="up">&#8593;</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
